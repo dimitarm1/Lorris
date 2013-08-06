@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>743</width>
-    <height>367</height>
+    <height>366</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -472,8 +472,8 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>90</width>
-              <height>199</height>
+              <width>60</width>
+              <height>205</height>
              </rect>
             </property>
             <property name="sizePolicy">
@@ -495,15 +495,15 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>RotateButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">src/ui/rotatebutton.h</header>
+  </customwidget>
+  <customwidget>
    <class>Playback</class>
    <extends>QFrame</extends>
    <header location="global">src/LorrisAnalyzer/playback.h</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>RotateButton</class>
-   <extends>QPushButton</extends>
-   <header location="global">src/ui/rotatebutton.h</header>
   </customwidget>
   <customwidget>
    <class>WidgetArea</class>

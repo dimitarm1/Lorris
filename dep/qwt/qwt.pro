@@ -6,11 +6,15 @@
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the Qwt License, Version 1.0
 ################################################################
-
+QT       += core gui
 include( qwtconfig.pri )
 
 TEMPLATE = subdirs
 CONFIG   += ordered
+win32 {
+    DEFINES+= Q_OS_WIN
+}
+
 
 SUBDIRS = \
     src \

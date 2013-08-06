@@ -46,12 +46,12 @@ PyAPI_FUNC(PyObject *) PyLong_FromVoidPtr(void *);
 PyAPI_FUNC(void *) PyLong_AsVoidPtr(PyObject *);
 
 #ifdef HAVE_LONG_LONG
-PyAPI_FUNC(PyObject *) PyLong_FromLongLong(PY_LONG_LONG);
-PyAPI_FUNC(PyObject *) PyLong_FromUnsignedLongLong(unsigned PY_LONG_LONG);
-PyAPI_FUNC(PY_LONG_LONG) PyLong_AsLongLong(PyObject *);
-PyAPI_FUNC(unsigned PY_LONG_LONG) PyLong_AsUnsignedLongLong(PyObject *);
-PyAPI_FUNC(unsigned PY_LONG_LONG) PyLong_AsUnsignedLongLongMask(PyObject *);
-PyAPI_FUNC(PY_LONG_LONG) PyLong_AsLongLongAndOverflow(PyObject *, int *);
+PyAPI_FUNC(PyObject *) PyLong_FromLongLong(long long);
+PyAPI_FUNC(PyObject *) PyLong_FromUnsignedLongLong(unsigned long long);
+PyAPI_FUNC(long long) PyLong_AsLongLong(PyObject *);
+PyAPI_FUNC(unsigned long long) PyLong_AsUnsignedLongLong(PyObject *);
+PyAPI_FUNC(unsigned long long) PyLong_AsUnsignedLongLongMask(PyObject *);
+PyAPI_FUNC(long long) PyLong_AsLongLongAndOverflow(PyObject *, int *);
 #endif /* HAVE_LONG_LONG */
 
 PyAPI_FUNC(PyObject *) PyLong_FromString(char *, char **, int);

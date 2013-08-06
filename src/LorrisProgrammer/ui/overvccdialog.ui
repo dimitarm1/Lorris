@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>82</height>
+    <width>401</width>
+    <height>81</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,7 +35,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="shupitoicons.qrc">:/icons/warning</pixmap>
+        <pixmap resource="../programmericons.qrc">:/icons/warning</pixmap>
        </property>
       </widget>
      </item>
@@ -96,7 +96,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="shupitoicons.qrc">:/icons/warning</pixmap>
+        <pixmap resource="../programmericons.qrc">:/icons/warning</pixmap>
        </property>
       </widget>
      </item>
@@ -131,7 +131,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="shupitoicons.qrc"/>
+  <include location="../programmericons.qrc"/>
  </resources>
  <connections>
   <connection>

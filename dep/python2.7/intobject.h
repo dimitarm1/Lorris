@@ -20,6 +20,7 @@ _Py_TrueStruct and _Py_ZeroStruct in boolobject.h; don't use this.
 extern "C" {
 #endif
 
+#include "Python.h"
 typedef struct {
     PyObject_HEAD
     long ob_ival;
@@ -42,7 +43,7 @@ PyAPI_FUNC(long) PyInt_AsLong(PyObject *);
 PyAPI_FUNC(Py_ssize_t) PyInt_AsSsize_t(PyObject *);
 PyAPI_FUNC(unsigned long) PyInt_AsUnsignedLongMask(PyObject *);
 #ifdef HAVE_LONG_LONG
-PyAPI_FUNC(unsigned PY_LONG_LONG) PyInt_AsUnsignedLongLongMask(PyObject *);
+PyAPI_FUNC(unsigned long long) PyInt_AsUnsignedLongLongMask(PyObject *);
 #endif
 
 PyAPI_FUNC(long) PyInt_GetMax(void);

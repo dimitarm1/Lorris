@@ -10,7 +10,7 @@ QWT_ROOT = $${PWD}/..
 include( $${QWT_ROOT}/qwtconfig.pri )
 include( $${QWT_ROOT}/qwtbuild.pri )
 TEMPLATE = lib
-
+QT       += core gui
 win32 {
     TARGET = $$qtLibraryTarget(qwt)
 } else {

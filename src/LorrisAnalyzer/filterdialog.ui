@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>632</width>
+    <width>631</width>
     <height>439</height>
    </rect>
   </property>
@@ -33,7 +33,16 @@
        </property>
        <widget class="QWidget" name="page_3">
         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1,0,4">
-         <property name="margin">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
           <number>0</number>
          </property>
          <item>
@@ -292,7 +301,7 @@
               <string>Apply</string>
              </property>
              <property name="icon">
-              <iconset resource="../LorrisShupito/shupitoicons.qrc">
+              <iconset resource="../LorrisProgrammer/programmericons.qrc">
                <normaloff>:/icons/start</normaloff>:/icons/start</iconset>
              </property>
             </widget>
@@ -443,7 +452,7 @@
  </widget>
  <resources>
   <include location="../actions.qrc"/>
-  <include location="../LorrisShupito/shupitoicons.qrc"/>
+  <include location="../LorrisProgrammer/programmericons.qrc"/>
  </resources>
  <connections>
   <connection>

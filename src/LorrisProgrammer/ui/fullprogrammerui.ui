@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1028</width>
-    <height>576</height>
+    <height>577</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -984,7 +984,16 @@ flashing same file twice:</string>
    <item>
     <widget class="QWidget" name="fuseContainer" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout_4">
-      <property name="margin">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
        <number>0</number>
       </property>
       <item>
@@ -1016,15 +1025,15 @@ flashing same file twice:</string>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>RotateButton</class>
-   <extends>QPushButton</extends>
-   <header location="global">src/ui/rotatebutton.h</header>
-  </customwidget>
-  <customwidget>
    <class>Terminal</class>
    <extends>QFrame</extends>
    <header>../src/ui/terminal.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RotateButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">src/ui/rotatebutton.h</header>
   </customwidget>
  </customwidgets>
  <resources>

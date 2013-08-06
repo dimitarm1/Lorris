@@ -1264,6 +1264,7 @@ QPixmap QwtPainter::backingStore( QWidget *widget, const QSize &size )
         if ( pm.x11Info().screen() != widget->x11Info().screen() )
             pm.x11SetScreen( widget->x11Info().screen() );
     }
+#warning "ERROR in X11 PARAMETERS"
 #endif
 #endif
 
